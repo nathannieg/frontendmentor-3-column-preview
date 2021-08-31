@@ -25,3 +25,105 @@ a {
 }
 
 /* MOBILE STYLE */
+
+body {
+  width: 100vw;
+  background-color: var(--very-light-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.container {
+  width: 95vw;
+}
+
+.card {
+  padding: 3rem;
+}
+
+.sedans {
+  background-color: var(--sedans-orange);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.suvs {
+  background-color: var(--suvs-cyan);
+}
+
+.luxury {
+  background-color: var(--luxury-cyan);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.headings {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+  margin-top: 2rem;
+}
+
+.paragraph {
+  font-weight: 400;
+  color: var(--transparent-white);
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  padding-right: 3rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+  background-color: var(--very-light-gray);
+  border: solid 2px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.bttn-sedans {
+  color: var(--sedans-orange);
+}
+
+.bttn-sedans:hover {
+  color: var(--transparent-white);
+  border: 2px var(--transparent-white) solid;
+  background-color: var(--sedans-orange);
+}
+
+.bttn-suvs {
+  color: var(--suvs-cyan);
+}
+
+.bttn-suvs:hover {
+  color: var(--transparent-white);
+  border: 2px var(--transparent-white) solid;
+  background-color: var(--suvs-cyan);
+}
+
+.bttn-luxury {
+  color: var(--luxury-cyan);
+}
+
+.bttn-luxury:hover {
+  color: var(--transparent-white);
+  border: 2px var(--transparent-white) solid;
+  background-color: var(--luxury-cyan);
+}
+
+.attribution {
+  margin: 0 3rem;
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
+}
