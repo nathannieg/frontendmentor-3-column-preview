@@ -1,0 +1,42 @@
+@media (min-width: 1000px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+  }
+
+  .sedans {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+
+  .luxury {
+    background-color: var(--luxury-cyan);
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  .paragraph {
+    padding-right: 1rem;
+  }
+
+  .buttons {
+    margin-top: 4rem;
+  }
+}
