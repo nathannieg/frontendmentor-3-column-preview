@@ -1,0 +1,27 @@
+/* VARIABLES */
+
+:root {
+  --sedans-orange: hsl(31, 77%, 52%);
+  --suvs-cyan: hsl(184, 100%, 22%);
+  --luxury-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+  --very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
+}
+
+/* RESETS */
+
+* {
+  margin: 0;
+  font-size: 0.9375rem; /*15px*/
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* MOBILE STYLE */
