@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - [Solution on my Github profile](https://github.com/nathannieg/frontendmentor-3-column-preview)
-- [Live site]()
+- [Live site](https://3column-card-ng.netlify.app/)
 
 ### My proccess
 
